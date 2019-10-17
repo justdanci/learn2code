@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  /* Half height */
+  height: 85vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+/* Centered buttons */
+.btn-group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.btn-group button {
+  margin: 10px;
+}
+
+.page-footer .row {
+  color: white;
+}
+
+.footer-copyright {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 95vh;
+}
+
+.h2title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* pricing */
+.bg-gradient {
+  background: #C9D6FF;
+  background: -webkit-gradient(linear, left top, right top, from(#E2E2E2), to(#C9D6FF));
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+}
+
+ul li {
+  margin-bottom: 1.4rem;
+}
+
+.pricing-divider {
+  border-radius: 20px;
+  background: #C64545;
+  padding: 1em 0 4em;
+  position: relative;
+}
+
+.blue .pricing-divider {
+  background: #2D5772;
+}
+
+.green .pricing-divider {
+  background: #1AA85C;
+}
+
+.red b {
+  color: #C64545;
+}
+
+.blue b {
+  color: #2D5772;
+}
+
+.green b {
+  color: #1AA85C;
+}
+
+.pricing-divider-img {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 80px;
+}
+
+.deco-layer {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.btn-custom {
+  background: #C64545;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.img-float {
+  width: 50px;
+  position: absolute;
+  top: -3.5rem;
+  right: 1rem;
+}
+
+.princing-item {
+  -webkit-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+
+.princing-item:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.princing-item:hover .deco-layer--1 {
+  -webkit-transform: translate3d(15px, 0, 0);
+  transform: translate3d(15px, 0, 0);
+}
+
+.princing-item:hover .deco-layer--2 {
+  -webkit-transform: translate3d(-15px, 0, 0);
+  transform: translate3d(-15px, 0, 0);
+}
+
+/* pricing single */
+.pricingsingle {
+  margin-top: 6%;
+}
+
+/*pricint text */
+.pricingtext {
+  text-align: left;
+}
+
+/*team */
+h2 {
+  color: #4C4C4C;
+  word-spacing: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.ion-minus {
+  padding: 0px 10px;
+}
+
+.team {
+  background-color: #f6f6f6;
+  padding: 60px 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.team h4 {
+  margin-top: 20px;
+  color: #5db4c0;
+}
+
+.team .fa {
+  color: #5db4c0;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 3px;
+}
+
+/* Contact */
+.container-contact {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+/* login */
+#login .container #login-row #login-column #login-box {
+  margin-top: 5%;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+  margin-bottom: 35%;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+/*# sourceMappingURL=style.css.map */

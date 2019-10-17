@@ -1,0 +1,22 @@
+{
+  "name": "nodejs1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justdanci/learn2code.git"
+  },
+  "author": "Daniel Moravik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justdanci/learn2code/issues"
+  },
+  "homepage": "https://github.com/justdanci/learn2code#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
